@@ -211,6 +211,7 @@ hr {
     padding: 7px;
 }
 
+/* =-=-=-=-=-=footer section strat=-=-=-=-=--=-=-=*/
 
 
 
@@ -218,6 +219,7 @@ hr {
 
 
 
+/* =-=-=-=-=-=media quary max-width 768px start=-=-=-=-=- */
 
 
 @media only screen and (max-width: 768px) {
@@ -278,7 +280,18 @@ hr {
  .footer-link a {
    font-size:  20px;
  }
+ .view-all {
+    display: block;
+ }
 }
+
+
+/* =-=-=-=-=-=media quary max-width 768px end=-=-=-=-=- */
+
+
+
+/* =-=-=-=-=-=media quary max-width 688px start=-=-=-=-=- */
+
 
 @media only screen and (max-width: 688px) {
     .container-1 {
@@ -321,7 +334,7 @@ hr {
 .player-bio .awesome {
     font-size: 20px;
 }
-.  .view-all {
+ .view-all {
     display: none;
    }
 .footer-link {
@@ -333,3 +346,5 @@ hr {
     width: 500px;
 }
 }
+
+/* =-=-=-=-=-=media quary max-width 688px end=-=-=-=-=- */
